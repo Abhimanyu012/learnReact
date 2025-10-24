@@ -1,11 +1,11 @@
 import React from 'react'
-import User from './components/User'
-import Checkboxes from './components/Checkboxes'
-import Radio from './components/Radio'
+
+import Loops from './components/Loops'
+import Clock from './components/Clock'
 
 const App = () => {
   return (
-    <div><Radio/></div>
+    <div><Clock/></div>
   )
 }
 
