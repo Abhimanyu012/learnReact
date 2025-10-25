@@ -18,16 +18,16 @@ const Checkboxes = () => {
             <h1 className='text-2xl'>skills </h1>
 
             <div className='border-2 h-1/2 p-5 '>
-                <input type="checkbox" onChange={handleSkill} id='php' className='m-2' value={"php"} />
+                <input type="checkbox" onChange={handleSkill} id='php' className='m-2' value={"php"} checked={skill.includes('php')} />
                 <label htmlFor="php">PHP</label>
 
-                <input type="checkbox" onChange={handleSkill} id='java' className='m-2' value={"java"} />
+                <input type="checkbox" onChange={handleSkill} id='java' className='m-2' value={"java"} checked={skill.includes('java')} />
                 <label htmlFor="java">JAVA</label>
 
-                <input type="checkbox" onChange={handleSkill} id='python' className='m-2' value={"python"} />
+                <input type="checkbox" onChange={handleSkill} id='python' className='m-2' value={"python"} checked={skill.includes('python')} />
                 <label htmlFor="python">PYTHON</label>
 
-                <input type="checkbox" onChange={handleSkill} id='node' className='m-2' value={"node"} />
+                <input type="checkbox" onChange={handleSkill} id='node' className='m-2' value={"node"} checked={skill.includes('node')} />
                 <label htmlFor="node">NODE</label>
             </div>
 
